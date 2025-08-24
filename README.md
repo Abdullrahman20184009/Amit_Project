@@ -18,3 +18,16 @@ It uses **Java, Selenium WebDriver, TestNG, and Cucumber (BDD)** to automate end
 - **BDD Framework:** Cucumber  
 
 ## 📂 Project Structure
+src
+├── main
+│ └── java
+│ └── (Base classes & utilities)
+└── test
+├── java
+│ └── (Step definitions & hooks)
+└── resources
+└── features (Cucumber feature files)
+## ▶️ How to Run
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/your-username/Demoblaze-Automation.git
