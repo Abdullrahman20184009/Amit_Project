@@ -18,10 +18,18 @@ It uses **Java, Selenium WebDriver, TestNG, and Cucumber (BDD)** to automate end
 - **BDD Framework:** Cucumber  
 
 ## 📂 Project Structure
-src
+📂 src
 ├── main
-│ └── java
-│ └── (Base classes & utilities)
+│   └── java
+│       └── pages               # Page Object classes
+│           ├── CartPage.java
+│           ├── DashboardPage.java
+│           ├── HomePage.java
+│           ├── LaptopI5Page.java
+│           ├── LaptopI7Page.java
+│           ├── LaptopPage.java
+│           ├── LoginPage.java
+│           └── SignUpPage.java
 └── test
 ├── java
 │ └── (Step definitions & hooks)
